@@ -60,23 +60,48 @@ That's it! The magic begins. 🪄
 4. Behold the answer revealed in the form of a mystical image! 🔍
 5. Repeat for more wisdom or just for fun! 😄
 
-## 📸 Screenshots
+## � Project Structure
 
-| Home Screen                                                   | Answer Revealed                                                   |
-| ------------------------------------------------------------- | ----------------------------------------------------------------- |
-| ![Home](https://via.placeholder.com/150x200?text=Home+Screen) | ![Answer](https://via.placeholder.com/150x200?text=Answer+Screen) |
-
-_(Replace with actual images from your `images/` folder)_
-
-## 🛠️ Development
-
-This app is built with Flutter and Dart. The main logic is in `lib/main.dart`, and assets are in the `images/` folder.
-
-### Project Structure
+```
+magic_ball/
+├── analysis_options.yaml
+├── magic_ball.iml
+├── pubspec.yaml
+├── README.md
+├── android/
+│   ├── app/
+│   │   ├── build.gradle.kts
+│   │   └── src/
+│   ├── build.gradle.kts
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   └── settings.gradle.kts
+├── build/
+├── images/
+│   ├── ball1.png
+│   ├── ball2.png
+│   ├── ball3.png
+│   ├── ball4.png
+│   └── ball5.png
+├── ios/
+│   ├── Flutter/
+│   ├── Runner/
+│   └── Runner.xcodeproj/
+├── lib/
+│   └── main.dart
+├── linux/
+├── macos/
+├── test/
+│   └── widget_test.dart
+├── web/
+└── windows/
+```
 
 - `lib/main.dart`: The heart of the magic! Contains the UI and random logic.
 - `images/`: Home to the ball images (ball1.png to ball5.png).
-- Standard Flutter folders for Android, iOS, etc.
+- Standard Flutter folders for Android, iOS, Web, Linux, macOS, and Windows builds.
 
 ## 🤝 Contributing
 
