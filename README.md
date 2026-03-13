@@ -12,12 +12,23 @@ _(Add your actual screenshot here)_
 - **Cross-Platform**: Built with Flutter, runs on Android, iOS, Web, and more! 📱🖥️
 - **No Ads, Pure Magic**: Just you, your questions, and the ball's wisdom. ✨
 
-## 🚀 Installation
+## �️ Tech Stack
+
+- **Framework**: Flutter (Dart)
+- **Version**: 1.0.0+1
+- **Dependencies**:
+  - Flutter SDK
+  - Cupertino Icons (^1.0.8)
+- **Development Tools**: Flutter Lints (^6.0.0), Flutter Test
+
+## �🚀 Installation
 
 ### Prerequisites
 
-- [Flutter](https://flutter.dev/docs/get-started/install) installed on your machine.
-- A device or emulator to run the app.
+- [Flutter](https://flutter.dev/docs/get-started/install) SDK ^3.11.0 or higher
+- Dart SDK (included with Flutter)
+- Android Studio or VS Code with Flutter extensions for development
+- A device or emulator to run the app (Android/iOS/Web/Desktop)
 
 ### Steps
 
